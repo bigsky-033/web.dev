@@ -260,7 +260,7 @@ Adding the [`defer`](https://developer.mozilla.org/docs/Learn/JavaScript/First_s
 
 ### Base
 
-There is another element that is only found in the `<head>.` Not used very often, the `<base>` element allows setting a default link URL and target. The `href` attribute defines the base URL for all relative links.
+There is another element that is only found in the `<head>`. Not used very often, the `<base>` element allows setting a default link URL and target. The `href` attribute defines the base URL for all relative links.
 
 The `target` attribute, valid on `<base>` as well as on links and forms, sets where those links should open. The default of `_self` opens linked files in the same context as the current document. Other options include `_blank`, which opens every link in a new window, the `_parent` of the current content, which may be the same as self if the opener is not an iframe,  or `_top`, which is in the same browser tab, but popped out of any context to take up the entire tab.
 
